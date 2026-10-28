@@ -1,0 +1,14 @@
+SENHA_CORRETA = "1234"  # Defina a senha do cofre aqui
+
+acertou = False
+
+for _ in range(3):
+    tentativa = input()
+    if tentativa == SENHA_CORRETA:
+        acertou = True
+        break
+
+if acertou:
+    print("Aberto")
+else:
+    print("Bloqueado")
