@@ -1,0 +1,9 @@
+n = int(input())
+maior = 0
+
+for _ in range(n):
+    pontuacao = int(input())
+    if pontuacao > maior:
+        maior = pontuacao
+
+print(maior)
